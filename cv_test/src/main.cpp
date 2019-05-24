@@ -11,7 +11,7 @@ using namespace cv::cuda;
 
 int main (int argc, char *argv[])
 {
-    ros::init(argc, argv, "cvTest");
+    ros::init(argc, argv, "cv_test");
     ros::NodeHandle n("~");
 
     if (getCudaEnabledDeviceCount() == 0)
